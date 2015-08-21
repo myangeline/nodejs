@@ -1,16 +1,16 @@
 # nodejs hello world
 
-## 创建文件夹并且初始化
+## 1. 创建文件夹并且初始化
 
     > mkdir lesson1
     > cd lesson1
     > npm init
 
-## 安装Express
+## 2. 安装Express
 
     > npm install express --registry=https://registry.npm.taobao.org --save
 
-## app.js
+## 3. app.js
 
     // 这句的意思就是引入 `express` 模块，并将它赋予 `express` 这个变量等待使用。
     var express = require('express');
@@ -30,7 +30,7 @@
       console.log('app is listening at port 3000');
     });
 
-## 运行
+## 4. 运行
 
     > node app.js
     
